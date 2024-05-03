@@ -41,17 +41,37 @@
     font-size: 1.2rem;
 }
 
-// .graphs-section {
-//  ADD THIS BACK IN WHEN YOU HAVE THE GRAPHS SECTION
-// }
 
-.view-more-data-btn-container {
-    height: 44px;
-    width: 180px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 10%;
-}
+.graphs-section {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* Adjust the space between images */
+  }
+
+  .graph img {
+    width: auto; /* Adjust the width as needed */
+    height: 175px; /* Set the desired height */
+  }
+
+  .view-more-data-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 100px;
+
+    .ant-btn + .ant-btn {
+      margin-left: 20px;
+    }
+  }
+
+  .middle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+
 
 .middle-section {
     display: flex;
@@ -75,9 +95,88 @@
     font-size: 1.4rem;
 }
 
-// .bottom-section {
-//      ADD THIS BACK IN WHEN YOU HAVE A BOTTOM SECTION
-// }
+.bottom-section {
+    //  ADD THIS BACK IN WHEN YOU HAVE A BOTTOM SECTION
+        text-align: center;
+        margin-top: 20px;
+}
+
+.sditext {
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.boxes {
+    margin-left: 20px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.left-box .thirty-percent {
+    text-align: center; /* Center the percentage */
+    font-weight: 300;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.left-box .thirty-text {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+.left-box {
+    width: 20%; /* Adjust as needed */
+  }
+
+.middle-box {
+    width: 20%; /* Adjust width as needed */
+    padding-left: 20px; /* Add padding between left and middle box */
+    box-sizing: border-box;
+    margin-left: 250px;
+}
+
+.middle-box .five-percent {
+    text-align: center; /* Center the percentage */
+    font-weight: 300;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.middle-box .five-text {
+    margin-top: 20px;
+    font-weight: 500; /* Adjust text weight as needed */
+}
+
+.right-box {
+    width: 20%; /* Adjust width as needed */
+    padding-left: 20px; /* Add padding between left and middle box */
+    box-sizing: border-box;
+    margin-left: 250px;
+}
+
+.right-box .six-times {
+    text-align: center; /* Center the percentage */
+    font-weight: 300;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.right-box .six-text {
+    margin-top: 20px;
+    font-weight: 500; /* Adjust text weight as needed */
+}
+
+
+.read-more {
+    text-align: center;
+}
+
+
+
 
 .back-to-top {
     width: 8%;
@@ -115,9 +214,9 @@
     .hrf-logo-img-container img {
         height: 30px;
         width: 48px;
-       
+
     }
-   
+
     .header-text-container h1 {
         font-size: 1.5rem;
         padding-top: 5%;
@@ -170,7 +269,7 @@
         width: 85%;
         text-align: center;
         margin: 0 auto;
-       
+
     }
 
     .middle-section-text-container h3 {
@@ -227,9 +326,9 @@
     .hrf-logo-img-container img {
         height: 30px;
         width: 48px;
-       
+
     }
-   
+
     .header-text-container h1 {
         font-size: 1.5rem;
         padding-top: 5%;
@@ -271,7 +370,7 @@
         background-color: @secondary-color;
         padding-top: 5%;
         text-align: center;
-        
+
     }
 
     .hrf-img {
@@ -343,7 +442,7 @@
         height: 30px;
         width: 48px;
     }
-   
+
     .header-text-container h1 {
         font-size: 1.5rem;
         padding-top: 5%;
@@ -436,7 +535,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-    
+
 }
 
 @media @tablet-small {
@@ -456,9 +555,9 @@
     .hrf-logo-img-container img {
         height: 66px;
         width: 108px;
-       
+
     }
-   
+
     .header-text-container h1 {
         font-size: 2.5rem;
         padding-top: 5%;
@@ -564,15 +663,15 @@
        position: absolute;
        top: 0;
        left: 0;
-       
+
     }
 
     .hrf-logo-img-container img {
         height: 83px;
         width: 136px;
-       
+
     }
-   
+
     .header-text-container h1 {
         font-size: 3.5rem;
         padding-top: 5%;
@@ -751,7 +850,7 @@
         padding: 0 2%;
     }
 
-   
+
  .first-data-point-container {
         width: 23%;
     }
@@ -763,7 +862,7 @@
     .third-data-point-container {
         width: 23%;
     }
-    
+
     .back-to-top {
         width: 35%;
     }

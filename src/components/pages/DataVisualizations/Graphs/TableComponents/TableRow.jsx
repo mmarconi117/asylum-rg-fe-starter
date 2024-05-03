@@ -37,6 +37,7 @@ function TableRow(props) {
             );
           }
         }
+        return null; // Return null as a fallback value for cases where row is falsy
       })}
     </div>
   );
