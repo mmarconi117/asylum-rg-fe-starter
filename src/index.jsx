@@ -67,7 +67,7 @@ export function App() {
       </Header>
       <Switch>
         <Route path="/" exact component={LandingPage} />
-        <Route path="/profile" component={Profile}/>
+        {/* <Route path="/profile" component={Profile}/> */}
         <Route path="/graphs" component={GraphsContainer} />
         <Route component={NotFoundPage} />
       </Switch>
