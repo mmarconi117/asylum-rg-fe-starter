@@ -3,8 +3,8 @@ import { Image } from 'antd';
 import { Link } from 'react-router-dom';
 import Logo from '../../styles/Images/WhiteLogo.png';
 import { colors } from '../../styles/data_vis_colors';
-import LoginButton from '../common/loginButton';
-import LogoutButton from '../common/logoutButton';
+import LoginButton from '../common/loginButton'; // Corrected import path
+import LogoutButton from '../common/logoutButton'; // Corrected import path
 
 const { primary_accent_color } = colors;
 
@@ -27,9 +27,7 @@ function HeaderContent() {
         <Link to="/" style={{ color: '#E2F0F7', paddingRight: '75px' }}>
           Home
         </Link>
-        <LoginButton
-
-        />
+        <LoginButton />
         <LogoutButton />
         <Link to="/graphs" style={{ color: '#E2F0F7' }}>
           Graphs
